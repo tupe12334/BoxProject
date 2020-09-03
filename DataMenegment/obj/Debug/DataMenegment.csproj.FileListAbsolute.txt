@@ -1,0 +1,6 @@
+C:\Users\Ofek\source\repos\WpfBoxPro\DataMenegment\bin\Debug\DataMenegment.dll
+C:\Users\Ofek\source\repos\WpfBoxPro\DataMenegment\bin\Debug\DataMenegment.pdb
+C:\Users\Ofek\source\repos\WpfBoxPro\DataMenegment\obj\Debug\DataMenegment.csprojAssemblyReference.cache
+C:\Users\Ofek\source\repos\WpfBoxPro\DataMenegment\obj\Debug\DataMenegment.csproj.CoreCompileInputs.cache
+C:\Users\Ofek\source\repos\WpfBoxPro\DataMenegment\obj\Debug\DataMenegment.dll
+C:\Users\Ofek\source\repos\WpfBoxPro\DataMenegment\obj\Debug\DataMenegment.pdb

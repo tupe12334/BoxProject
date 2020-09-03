@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="UWPApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    
+    <Grid FlowDirection="RightToLeft">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel  Grid.Column="1">
+            <TextBlock Text="מערכת הזמנה ומכירת קופסאות" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <RadioButton x:ConnectionId='3' x:Name="RBAdd" Content="קבל הספקה"/>
+                <RadioButton x:ConnectionId='4' x:Name="RBLow" Content="מכור ללקוח"/>
+                <RadioButton x:ConnectionId='5' x:Name="RBShowBoxDetail" Content="צפה בפרטי קופסא"/>
+            </StackPanel>
+            <TextBlock Text="פרטי קופסא:" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center">
+                <TextBlock Text="שטח הבסיס שלה:"/>
+                <TextBox/>
+                <TextBlock Text="גובה הקופסא:"/>
+                <TextBox/>
+            </StackPanel>
+            <Button x:ConnectionId='2' x:Name="BTNEnter" Content="קבל" HorizontalAlignment="Center"                       >
+                <Button.Flyout>
+                    <Flyout>
+                        <StackPanel>
+                            <TextBlock Text="dsaf"/>
+                        </StackPanel>
+                    </Flyout>
+                </Button.Flyout>
+            </Button>
+        </StackPanel>
+
+        
+    </Grid>
+</Page>
+

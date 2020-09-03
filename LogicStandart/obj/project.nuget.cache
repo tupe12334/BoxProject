@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "37qf2K9tHKhVMvXYy3TlbLIPkMY+k8Ej72+9Re1eyA+yIqqnVX3sJBlgnv3keuFyGjZL5Ai9E8LAJM9QA58rMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\LogicStandart\\LogicStandart.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ofek\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ofek\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,155 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DataMenegment/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DataMenegment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataMenegment.dll": {}
+        }
+      },
+      "Logic/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Logic.dll": {}
+        }
+      },
+      "StorageManager/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/StorageManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StorageManager.dll": {}
+        }
+      },
+      "WpfBoxPro/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "StorageManager": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WpfBoxPro.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WpfBoxPro.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataMenegment/1.0.0": {
+      "type": "project",
+      "path": "../DataMenegment/DataMenegment.csproj",
+      "msbuildProject": "../DataMenegment/DataMenegment.csproj"
+    },
+    "Logic/1.0.0": {
+      "type": "project",
+      "path": "../Logic/Logic.csproj",
+      "msbuildProject": "../Logic/Logic.csproj"
+    },
+    "StorageManager/1.0.0": {
+      "type": "project",
+      "path": "../StorageManager/StorageManager.csproj",
+      "msbuildProject": "../StorageManager/StorageManager.csproj"
+    },
+    "WpfBoxPro/1.0.0": {
+      "type": "project",
+      "path": "../WpfBoxPro/WpfBoxPro.csproj",
+      "msbuildProject": "../WpfBoxPro/WpfBoxPro.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "DataMenegment >= 1.0.0",
+      "Logic >= 1.0.0",
+      "StorageManager >= 1.0.0",
+      "WpfBoxPro >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ofek\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\debugConsole\\debugConsole.csproj",
+      "projectName": "debugConsole",
+      "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\debugConsole\\debugConsole.csproj",
+      "packagesPath": "C:\\Users\\Ofek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\debugConsole\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Ofek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\DataMenegment\\DataMenegment.csproj": {
+              "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\DataMenegment\\DataMenegment.csproj"
+            },
+            "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\Logic\\Logic.csproj": {
+              "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\Logic\\Logic.csproj"
+            },
+            "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\StorageManager\\StorageManager.csproj": {
+              "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\StorageManager\\StorageManager.csproj"
+            },
+            "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\WpfBoxPro\\WpfBoxPro.csproj": {
+              "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\WpfBoxPro\\WpfBoxPro.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

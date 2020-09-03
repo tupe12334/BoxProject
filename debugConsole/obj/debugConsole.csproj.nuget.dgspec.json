@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\debugConsole\\debugConsole.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\DataMenegment\\DataMenegment.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\DataMenegment\\DataMenegment.csproj",
+        "projectName": "DataMenegment",
+        "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\DataMenegment\\DataMenegment.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\debugConsole\\debugConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\debugConsole\\debugConsole.csproj",
+        "projectName": "debugConsole",
+        "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\debugConsole\\debugConsole.csproj",
+        "packagesPath": "C:\\Users\\Ofek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\debugConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ofek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\DataMenegment\\DataMenegment.csproj": {
+                "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\DataMenegment\\DataMenegment.csproj"
+              },
+              "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\Logic\\Logic.csproj"
+              },
+              "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\StorageManager\\StorageManager.csproj": {
+                "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\StorageManager\\StorageManager.csproj"
+              },
+              "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\WpfBoxPro\\WpfBoxPro.csproj": {
+                "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\WpfBoxPro\\WpfBoxPro.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\Logic\\Logic.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\Logic\\Logic.csproj",
+        "projectName": "Logic",
+        "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\Logic\\Logic.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\StorageManager\\StorageManager.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\StorageManager\\StorageManager.csproj",
+        "projectName": "StorageManager",
+        "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\StorageManager\\StorageManager.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\WpfBoxPro\\WpfBoxPro.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\WpfBoxPro\\WpfBoxPro.csproj",
+        "projectName": "WpfBoxPro",
+        "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\WpfBoxPro\\WpfBoxPro.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\StorageManager\\StorageManager.csproj": {
+                "projectPath": "C:\\Users\\Ofek\\source\\repos\\WpfBoxPro\\StorageManager\\StorageManager.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

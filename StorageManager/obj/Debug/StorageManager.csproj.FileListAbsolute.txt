@@ -1,0 +1,6 @@
+C:\Users\Ofek\source\repos\WpfBoxPro\StorageManager\bin\Debug\StorageManager.dll
+C:\Users\Ofek\source\repos\WpfBoxPro\StorageManager\bin\Debug\StorageManager.pdb
+C:\Users\Ofek\source\repos\WpfBoxPro\StorageManager\obj\Debug\StorageManager.csprojAssemblyReference.cache
+C:\Users\Ofek\source\repos\WpfBoxPro\StorageManager\obj\Debug\StorageManager.csproj.CoreCompileInputs.cache
+C:\Users\Ofek\source\repos\WpfBoxPro\StorageManager\obj\Debug\StorageManager.dll
+C:\Users\Ofek\source\repos\WpfBoxPro\StorageManager\obj\Debug\StorageManager.pdb

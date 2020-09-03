@@ -1,0 +1,9 @@
+C:\Users\Ofek\source\repos\WpfBoxPro\LogicStandart\bin\Debug\netstandard2.0\LogicStandart.deps.json
+C:\Users\Ofek\source\repos\WpfBoxPro\LogicStandart\bin\Debug\netstandard2.0\LogicStandart.dll
+C:\Users\Ofek\source\repos\WpfBoxPro\LogicStandart\bin\Debug\netstandard2.0\LogicStandart.pdb
+C:\Users\Ofek\source\repos\WpfBoxPro\LogicStandart\obj\Debug\netstandard2.0\LogicStandart.csprojAssemblyReference.cache
+C:\Users\Ofek\source\repos\WpfBoxPro\LogicStandart\obj\Debug\netstandard2.0\LogicStandart.AssemblyInfoInputs.cache
+C:\Users\Ofek\source\repos\WpfBoxPro\LogicStandart\obj\Debug\netstandard2.0\LogicStandart.AssemblyInfo.cs
+C:\Users\Ofek\source\repos\WpfBoxPro\LogicStandart\obj\Debug\netstandard2.0\LogicStandart.csproj.CoreCompileInputs.cache
+C:\Users\Ofek\source\repos\WpfBoxPro\LogicStandart\obj\Debug\netstandard2.0\LogicStandart.dll
+C:\Users\Ofek\source\repos\WpfBoxPro\LogicStandart\obj\Debug\netstandard2.0\LogicStandart.pdb
